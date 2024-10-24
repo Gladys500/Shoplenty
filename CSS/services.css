@@ -1,0 +1,63 @@
+h1#heading1{
+    text-align: center;
+    color: red;
+}
+#paragraph1{
+    font-family: "DejavuSans", serif;
+    font-size: 20px;
+}
+p.one{
+    font-style: italic;
+    font-weight: bolder;
+}
+div#mydivision{
+    background-color: lightseagreen;
+    margin: 50px;
+    padding: 30px;
+    color: white;
+    font-weight: bolder;
+}
+div#test{
+    background-color: darkgray;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    color: white;
+}
+#test p{
+    margin-left: 30px;
+}
+#test img{
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+#main{
+    display: flex;
+}
+#Advertisement{
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#Accounting{
+    background-color: limegreen;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+#Payment{
+    background-color: rosybrown;
+    margin-left: 20px;
+    color: white;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px gray;
+}
+
+#Advertisement:hover,#Accounting:hover,#Payment:hover{
+    background-color: gray;
+}
